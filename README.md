@@ -15,22 +15,22 @@ Clone these Yahoo Pipes:
 - http://pipes.yahoo.com/wraithmonster/tumblrlikes
 - http://pipes.yahoo.com/wraithmonster/tumblrposts
 
-## Save Pipes Output
+## Save
 
 Run the pipes with your credentials and save the JSON output to files in the `docs` directory of this cloned project. Each of your JSON files should be named following the convention `*tumblr*.json`. For example: 
 
     docs/tumblr-likes.json
     docs/tumblr-posts-1.json
     docs/tumblr-posts-2.json
-    **etc.**
+    ...
 
 ## Edit 
 
-Edit the following constants in `tate.py` to use your Gmail account and Evernote email address. 
-
 TATE uses **Gmail** to create a new Evernote note for each post in your JSON files.
 
-Why Gmail? [Read the rationale.](https://github.com/mattnorris/whispernote/wiki/FAQs)
+Why Gmail? [Read the rationale.](https://github.com/mattnorris/tate/wiki/FAQs)
+
+Edit the following constants in `tate.py` to use your Gmail account and Evernote email address. 
 
     USER = 'GMAIL_ADDRESS'
     PASSWORD = 'GMAIL_PASSWORD'
@@ -38,7 +38,4 @@ Why Gmail? [Read the rationale.](https://github.com/mattnorris/whispernote/wiki/
 
 ## Run
 
-Run `tate.py`
-
     python tate.py 
-    
