@@ -28,7 +28,7 @@ Run the pipes with your credentials and save the JSON output to files in the `do
 
 TATE uses **Gmail** to create a new Evernote note for each post in your JSON files.
 
-Why Gmail and not OAuth? [Read the rationale.](https://github.com/mattnorris/tate/wiki/FAQs)
+(Why Gmail and not OAuth? [Read the rationale.](https://github.com/mattnorris/tate/wiki/FAQs))
 
 Edit the following constants in `tate.py` to use your Gmail account and Evernote email address. 
 
